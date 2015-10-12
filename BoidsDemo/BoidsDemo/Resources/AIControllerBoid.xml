@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiController>
+	<name>Boid AI Controller</name>
+  <alignmentEnabled>1</alignmentEnabled>
+  <alignmentModifier>1.0</alignmentModifier>
+  <cohesionEnabled>1</cohesionEnabled>
+  <cohesionModifier>0.5</cohesionModifier>
+  <separationEnabled>1</separationEnabled>
+  <separationModifier>1.5</separationModifier>
+</aiController>

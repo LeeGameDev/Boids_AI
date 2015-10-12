@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<species>
+	<name>Boid</name>
+	<spriteFilename>BoidSmall.png</spriteFilename>
+  <minSpeed>1</minSpeed>
+  <maxSpeed>2</maxSpeed>
+  <maxAcceleration>0.03</maxAcceleration>
+  <minSeparation>4096</minSeparation>
+  <detectionRange>16384</detectionRange>
+  <detectionDot>-0.75</detectionDot>
+</species>

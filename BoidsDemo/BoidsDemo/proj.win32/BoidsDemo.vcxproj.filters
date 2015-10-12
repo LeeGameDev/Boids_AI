@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AI">
+      <UniqueIdentifier>{3848b073-a7b8-4ed9-bbb8-3957be641197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Flock">
+      <UniqueIdentifier>{9d0c5dbe-f41d-4bf3-bbca-08aefa47c6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Forces">
+      <UniqueIdentifier>{e371b55b-1640-44c5-babb-7918ed1889e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Demo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AlignmentAI.cpp">
+      <Filter>src\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\CohesionAI.cpp">
+      <Filter>src\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\SeparationAI.cpp">
+      <Filter>src\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AIController.cpp">
+      <Filter>src\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AIBehaviour.cpp">
+      <Filter>src\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Flock.cpp">
+      <Filter>src\Flock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpeciesEntity.cpp">
+      <Filter>src\Flock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Forces\Force.cpp">
+      <Filter>src\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Forces\Wind.cpp">
+      <Filter>src\Forces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Demo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AlignmentAI.h">
+      <Filter>src\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\CohesionAI.h">
+      <Filter>src\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\SeparationAI.h">
+      <Filter>src\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AIController.h">
+      <Filter>src\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AIBehaviour.h">
+      <Filter>src\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Flock.h">
+      <Filter>src\Flock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Species.h">
+      <Filter>src\Flock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpeciesEntity.h">
+      <Filter>src\Flock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Forces\Force.h">
+      <Filter>src\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Forces\Wind.h">
+      <Filter>src\Forces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\BoidSmall.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\SpeciesBoid.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\AIControllerBoid.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\FlockBoid.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

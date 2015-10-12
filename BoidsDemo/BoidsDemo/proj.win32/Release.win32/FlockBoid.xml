@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flock>
+	<name>Boid Flock</name>
+	<size>500</size>
+	<speciesXML>SpeciesBoid.xml</speciesXML>
+	<aiControllerXML>AIControllerBoid.xml</aiControllerXML>
+</flock>
