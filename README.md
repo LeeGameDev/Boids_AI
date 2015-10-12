@@ -1,4 +1,4 @@
-# Boids_AI
+# Boids AI
 
 Boids is a flocking algorithm coined by Craig Reynolds.
 
